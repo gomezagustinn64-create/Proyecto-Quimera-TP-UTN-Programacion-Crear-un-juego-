@@ -1,0 +1,37 @@
+{
+    "name": "zona4",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x":0, "y": 0, "w": 255, "h": 600},
+        {"x":510, "y": 0, "w": 300, "h": 600},
+        {"x":305, "y": 330, "w": 150, "h": 100}
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona8_(bosque2).png",
+    "connections": {
+        "up": "zona6"
+    },
+    "spawn_points": {
+        "down": { "x": 370, "y": 120 }
+    },
+        "npcs": [ 
+        { 
+            "name": "Cofre vacio",
+            "x": 305,
+            "y": 330,
+            "scale": 1.7,
+            "sprite": "assets/images/sprites/overworld/npcs/items_objetos.png",
+            "dialogue": [
+                "Es un cofre vacio \npero te llena con la determinacion de un sueldo minimo."
+            ]
+        }
+    ],
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona8_prop_(bosque2).png"
+        }
+    ]
+}

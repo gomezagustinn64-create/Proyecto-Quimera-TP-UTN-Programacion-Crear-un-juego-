@@ -1,0 +1,48 @@
+{
+    "name": "zona4",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x": 0, "y": 0, "w": 800, "h": 70},
+        {"x": 0, "y": 0, "w": 190, "h": 243},
+        {"x": 0, "y": 540, "w": 800, "h": 230},
+        {"x": 0, "y": 410, "w": 330, "h": 300},
+        {"x": 700, "y": 0, "w": 300, "h": 600},
+        {"x": 300, "y": 180, "w": 40, "h": 300},
+        {"x": 300, "y": 170, "w": 300, "h": 90},
+        {"x": 550, "y": 180, "w": 50, "h": 250},
+        {"x": 420, "y": 380, "w": 180, "h": 50},
+        {"x": 460, "y": 302, "w": 80, "h": 50}
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona9_(bosque3).png",
+    "connections": {
+        "left": "zona6"
+    },
+    "spawn_points": {
+        "right": { "x": 50, "y": 320 }
+    },
+            "npcs": [ 
+        { 
+            "name": "Cofre sucio",
+            "x": 460,
+            "y": 252,
+            "scale": 1.7,
+            "sprite": "assets/images/sprites/overworld/npcs/items_objetos.png",
+            "dialogue": [
+                "Despues de seguir el origen del rastro de sangre \nencuentras un cofre sucio.",
+                "Ves como toda la caja esta llena de sangre, \nla abres.......",
+                "Solo para encontrar una mano cortada y esquirlas de cristal.",
+                "Del susto pika suelta la apertura cerrandose de golpe.",
+                "dejan el cofre como esta \nlos dos se dan una mirada y se alejan del cofre"
+            ]
+        }
+    ],
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona9_prop_(bosque3).png"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "zona1",
+    "width": 800,
+    "height": 600,
+    "color": [60, 80, 120],
+    "background": "assets/images/mapas/mapas_imagenes/zona1_(oficina).png",
+    "collision": [
+        {"x": 0, "y": 0, "w": 800, "h": 315}, 
+        {"x": 0, "y": 523, "w": 800, "h": 200}, 
+        {"x": 0, "y": 0, "w": 55, "h": 600}, 
+        {"x": 387, "y": 45, "w": 65, "h": 300},
+        {"x": 400, "y": 15, "w": 400, "h": 330},
+        {"x": 455, "y": 25, "w": 65, "h": 300},
+        {"x": 700, "y": 15, "w": 100, "h": 300}
+    ],
+    "connections": {
+        "right": "zona2"
+    },
+    "spawn_points": {
+        "left": { "x": 750, "y": 390 }
+    },
+    "npcs": [ 
+        { 
+            "name": "El Jefe",
+            "x": 78,
+            "y": 35,
+            "scale": 4.5,
+            "sprite": "assets/images/sprites/overworld/npcs/theboss.png",
+            "portrait": {
+                "path": "assets/images/sprites/dialogos/npcs/eljefe_dialog.png",
+                "scale": 0.4,
+                "offset_x": 230,
+                "offset_y": -150
+            },
+            "dialogue": [
+                "El Jefe: \nLENARD(Paraguas), PIKA(Radio)!!!! \nQUE BUENO QUE LLEGAN DUO DE IMBECILES.",
+                "El Jefe: \nLLEGARON TARDE ASI QUE DEBO ENVIARLOS AHORA \nTIENEN UN ENCARGO IMPORTANTE.",
+                "El Jefe: \nUN CHICO DESAPARECIO EN LAS AFUERAS DEL PUEBLO, \nRECIENTEMENTE HUBIERON REPORTES SOBRE ACTIVIDAD SOSPECHOSA.",
+                "EL JEFE: \nHAY GENTE QUE PUDIERON PRESENCIAR LA DESAPARARICION, \nASI QUE HABLEN CON ELLOS.",
+                "El Jefe: \nASI QUE EL TRABAJO DE USTEDES DOS SERA ENCONTRARLO, \nASI QUE VALLAN !!!!!."
+            ]
+        },
+        { 
+            "name": "El Jefe",
+            "x": 535,
+            "y": 185,
+            "scale": 2.5,
+            "sprite": "assets/images/sprites/overworld/npcs/secretaria.png",
+            "dialogue": [
+                "Secretaria Labios: \nHola tontitos~ \ncomo ya les dijo el jefe, \ntienen que buscar info por la ciudad <3.",
+                "Secretaria Labios: \nPero eso muchachos, no tengan miedo a hablar con la gente \nbesos~."
+            ]
+        }
+    ]
+}

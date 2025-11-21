@@ -1,0 +1,72 @@
+{
+    "name": "zona4",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x" :0, "y": 460, "w": 800, "h": 230},
+        {"x": 410, "y": 400, "w": 800, "h": 230},
+        {"x": 480, "y": 360, "w": 800, "h": 230},
+        {"x": 540, "y": 320, "w": 800, "h": 230},
+        {"x": 0, "y": 0, "w": 400, "h": 270},
+        {"x": 0, "y": 0, "w": 500, "h": 210},
+        {"x": 0, "y": 0, "w": 800, "h": 170},
+        {"x": 0, "y": 0, "w": 450, "h": 250},
+        {"x": 600, "y": 0, "w": 305, "h": 600}
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona11_(el fin).png",
+    "connections": {
+        "left": "zona10"
+    },
+    "spawn_points": {
+    "right": { "x": 50, "y": 370 }
+    },
+        "npcs": [ 
+        { 
+            "name": "Cadaver",
+            "x": 150,
+            "y": 195,
+            "scale": 1.9,
+            "sprite": "assets/images/sprites/overworld/npcs/items_objetos.png",
+            "dialogue": [
+                "Es el chico que estabamos buscando, \ndecapitado y partido a la mitad.",
+                "Pika y Lenard venian viendo un resultado asi, \nles dio un mal gusto de boca.",
+                "Este es el lado oscuro de nuestro trabajo, \ncosas asi con estas cosas pasan",
+                "La silueta al fondo es la unica cosa que los separa \ndel frio cadaver del inocente muchacho",
+                "No hay otro lugar mas que avanzar y terminar el trabajo."
+
+            ]
+        }, 
+        { 
+            "name": "muerte",
+            "x": 580,
+            "y": 100,
+            "scale": 2.6,
+            "sprite": "assets/images/sprites/overworld/npcs/muerte.png",
+            "on_finish": "final_sequence",
+            "portrait": {
+                "path": "assets/images/sprites/dialogos/npcs/muerte_dialog1.png",
+                "scale": 0.4,
+                "offset_x": 230,
+                "offset_y": -150
+            },
+            "dialogue": [
+                "?????: \nDurante eones, \nla vida solo es una vitrina de horrores e injusticia.",
+                "?????: \nMi excistencia es el descanso para cada alma \nque sufre la lenta tortura de la vida.",
+                "?????: \nCada una me acerca a la salvacion de sus miserables y corta vidas.",
+                "?????: \nLa pobre gente de este lugar necesita salvacion.",
+                "?????: \nnosotros necesitamos mi salvacion.",
+                "?????: \nEl necesitaba de mi salvacion.",
+                "MUERTE: \nY ustedes tambien."
+            ]
+        }
+    ],
+
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona11_prop_(el fin).png"
+        }
+    ]
+}

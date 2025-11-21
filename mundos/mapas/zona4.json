@@ -1,0 +1,57 @@
+{
+    "name": "zona4",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [        
+        {"x":0, "y": 0, "w": 800, "h": 270},
+        {"x":0, "y": 0, "w": 300, "h": 600},
+        {"x":500, "y": 460, "w": 325, "h": 230}    
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona4_(mecanica).png",
+    "connections": {
+        "down": "zona3",
+        "right": "zona5"
+    },
+    "spawn_points": {
+        "left": { "x": 750, "y": 350 },
+        "up": { "x": 380, "y": 525 }
+    },
+        "npcs": [
+            { 
+                "name": "Bruno",
+                "x": 400,
+                "y": 90,
+                "scale": 3.6,
+                "sprite": "assets/images/sprites/overworld/npcs/bruno.png",
+                "portrait": {
+                    "path": "assets/images/sprites/dialogos/npcs/bruno_dialog.png",
+                    "scale": 0.4,
+                    "offset_x": 230,
+                    "offset_y": -150
+                },
+                "dialogue": [
+                    "Bruno(El Mecanico): \nAsi que ustedes son lo que van a buscar al Extraviado, huh?.",
+                    "Bruno(El Mecanico): \nPues quizas les sirva lo que tiene este mecanico viejo.", 
+                    "Bruno(El Mecanico): \nCuando todo escucharon los gritos del chico, \nyo fui y pude ver que algo se lo llevo era un hombre.",
+                    "Bruno(El Mecanico): \nO quizas estaba vestido de uno, \ntenia manos en el cuello como si brotaran de el.",
+                    "Bruno(El Mecanico): \nDe todo el tiempo que vivo en esta ciudad, \nnunca vi una cosa parecida.",
+                    "Pika: \n(en sus pensamientos) \n*mh... sera que quizas algun monstruo ronda por esta ciudad...*",
+                    "Lenard: \nAsi que un tipo perdido y un homicida eh?, \nse ve que hoy sera un dia dificil.",
+                    "Bruno(El Mecanico): \nSi necesitan ayuda, pueden volver a mi para que les recuerde.",
+                    "Bruno(El Mecanico): \nLos muchachos del taller y yo nos quedaremos trabajando.",
+                    "Pika: \nMuchas gracias caballero.",
+                    "Bruno(El Mecanico): \nBruno, llamame Bruno Miss.",
+                    "Pika: \nMuchas gracias Sr.Bruno.",
+                    "Lenard: \ndejen de coquetear tenemos un trabajo que hacer."
+                ]
+            }
+    ],
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona4_prop_(mecanica).png"
+        }
+    ]
+}

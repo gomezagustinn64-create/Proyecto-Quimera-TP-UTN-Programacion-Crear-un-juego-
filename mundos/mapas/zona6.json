@@ -1,0 +1,45 @@
+{
+    "name": "zona6",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x":540, "y": 480, "w": 325, "h": 230},
+        {"x":0, "y": 480, "w": 260, "h": 230},
+        {"x":0, "y": 0, "w": 260, "h": 250},
+        {"x":530, "y": 0, "w": 400, "h": 250}
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona6_(bosque).png",
+    "connections": {
+        "down": "zona8",
+        "right": "zona9",
+        "up": "zona7",
+        "left": "zona5"
+    },
+    "spawn_points": {
+        "right": { "x": 50, "y": 350 },
+        "left": { "x": 750, "y": 350 },
+        "up": { "x": 380, "y": 525 },
+        "down": { "x": 380, "y": 50 }
+    },
+    "npcs": [
+        { 
+            "name": "policia random",
+            "x": 100,
+            "y": 138,
+            "scale": 2.5,
+            "sprite": "assets/images/sprites/overworld/npcs/poli.png",
+            "dialogue": [
+                "Oficial del Policia: \n*se ve que esta esperando a la persona dormida*.",
+                "Oficial del Policia: \n*El policia tiene una almohada en su mano derecha \nse ve que son amigos, \nseria mejor dejarlos en paz."
+            ]
+        }
+    ],
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona6_prop_(bosque).png"
+        }
+    ]
+}

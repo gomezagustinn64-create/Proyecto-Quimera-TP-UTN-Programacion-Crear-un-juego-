@@ -1,0 +1,97 @@
+{
+    "name": "zona5",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x":0, "y": 480, "w": 800, "h": 230},
+        {"x":0, "y": 0, "w": 800, "h": 270}
+
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona5_(afueras de la ciudad).png",
+    "connections": {
+        "left": "zona4",
+        "right": "zona6"
+    },
+    "spawn_points": {
+        "right": { "x": 50, "y": 350 },
+        "left": { "x": 750, "y": 350 }
+    },
+    "npcs": [
+        { 
+            "name": "Riguzzini",
+            "x": 150,
+            "y": 190,
+            "scale": 2.3,
+            "sprite": "assets/images/sprites/overworld/npcs/riguzzini.png",
+            "portrait": {
+                "path": "assets/images/sprites/dialogos/npcs/riguzzini_dialog.png",
+                "scale": 0.4,
+                "offset_x": 230,
+                "offset_y": -150
+            },
+            "dialogue": [
+                "Riguzzini: \nHola queridos compatriotras exterminadores, \npresencia su llegada desde este bello bosque.",
+                "Lenard: \nQue tiene este bosque de lindo?, \nparece salido de pelicula de terror.",
+                "Riguzzini: \nLa tenebrosidad del ambiente, \nla soledad y el silencio, \nle dan gran toque artistico a ese misterioso bosque.",
+                "Lenard: \nOkey okey... pero eso que tiene que ver con la desaparicion?.",
+                "Riguzzini: \nOh dios mio, \nes cierto disculpa mis palabras soy un gran fan del arte.",
+                "Riguzzini: \nYo fui el principal testigo de la situacion, \nme encontraba dibujando una pieza, \nla de un pajaro carpintero en la zona.",
+                "Riguzzini: \nPude presenciar con mi ojo que \nun hombre gigante se lo llevaba al fondo del bosque \nno lo segui por miedo",
+                "Riguzzini: \nCara disfigurada dientes podridos, \nparecia un cadaver andante, le brotaban de el flores.",
+                "Riguzzini: \nNo puedo evitar pensar \nque de el tambien broto un terror hermoso, \nno sabria como describirlo, \npero es todo lo que se.",
+                "Lenard y Pika: \n*Se miran el uno al otro* \n.......... UUUUUGH!!!.",
+                "Riguzzini: \nDije algo del disgusto de ustedes dos?.",
+                "Lenard: \nNo no, no te preocupes el problema debe ser una abominacion, \ny debe ser uno grandote por tu descripcion.",
+                "Pika: \nAhora tenemos que trabajar de encerio, \nya  sabes exterminar, como pelear con un oso.",
+                "Riguzzini: \nOh.",
+                "Lenard: \nIgualmente fuiste de mucha ayuda \nahora sabemos con que tratamos",
+                "Riguzzini: \nNo es un problema siempre pueden volver a buscarme",
+                "Rika: \nMuchas gracias Sr.!!!.",
+                "Riguzzini: \n.....tengo 21..."
+
+            ]
+        },
+        { 
+            "name": "Dorothea",
+            "x": 615,
+            "y": 190,
+            "scale": 2.0,
+            "sprite": "assets/images/sprites/overworld/npcs/dorothea.png",
+            "portrait": {
+                "path": "assets/images/sprites/dialogos/npcs/dorothea_dialog.png",
+                "scale": 0.4,
+                "offset_x": 230,
+                "offset_y": -150
+            },
+            "dialogue": [
+                "Lenard: \nHola Madam nosotros so-",
+                "Dorothea: \n Seh seh ya se quienes son,  \nvienen a preguntarme del tipo desaparecido.",
+                "Pika: \nPrecisamente dama.",
+                "Dorothea: \nEl muchacho desaparecio por uno de los caminos del bosque, \naunque escuche algo de unas ruinas.",
+                "Lenard: \n(hablando en voz baja) \n...tampoco me tenia que callar.",
+                "Dorothea: \nEH?? que dijiste?",
+                "Lenard: \nEh? nada nada....maleducada.",
+                "Dorothea: \nESO LO ESCU-.",
+                "Pika: \nEL PUNTO, es que gracias Madam por la ayuda  Ʌ u Ʌ. BYE"
+            ]
+        },
+                { 
+            "name": "Mayor-Domo",
+            "x": 470,
+            "y": 120,
+            "scale": 3.0,
+            "sprite": "assets/images/sprites/overworld/npcs/mayor.png",
+            "dialogue": [
+                "Mayo-Domo: \n*Solo esta mirandote, \nnada mas eso pero se ve que tu presencia no le molesta*"
+            ]
+        }
+    ],
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona5_prop_(afueras de la ciudad).png"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "zona7",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x":0, "y": 0, "w": 260, "h": 600},
+        {"x":520, "y": 0, "w": 260, "h": 600}
+
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona7_open_(ruinas entrada).png",
+    "connections": {
+        "down": "zona6",
+        "up": "zona10"
+    },
+    "spawn_points": {
+        "up": { "x": 380, "y": 525 },
+        "left": { "x": 370, "y": 125 }
+    },
+    "teleports": [
+    {
+        "x": 260,
+        "y": 0,
+        "w": 270,
+        "h": 100,
+        "to_map": "zona10",
+        "spawn": "up"
+    }
+    ]
+}

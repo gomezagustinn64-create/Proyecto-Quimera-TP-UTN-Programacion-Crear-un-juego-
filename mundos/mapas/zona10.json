@@ -1,0 +1,26 @@
+{
+    "name": "zona4",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x":0, "y": 480, "w": 800, "h": 230},
+        {"x":0, "y": 0, "w": 800, "h": 247}
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona10_(pasaje).png",
+    "connections": {
+        "left": "zona7",
+        "right": "zona11"
+    },
+    "spawn_points": {
+        "up": { "x": 50, "y": 320 },
+        "left": { "x": 750, "y": 350 }
+    },
+        "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona10_prop_(pasaje).png"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "name": "zona3",
+    "width": 800,
+    "height": 600,
+    "color": [80, 120, 120],
+    "collision": [
+        {"x": 0, "y": 438, "w": 800, "h": 400},
+        {"x": 560, "y": 0, "w": 305, "h": 600},
+        {"x": 0, "y": 0, "w": 370, "h": 370}
+    ],
+    "background": "assets/images/mapas/mapas_imagenes/zona3_(ciudad).png",
+    "connections": {
+        "left": "zona2",
+        "up": "zona4"
+    },
+    "spawn_points": {
+        "right": { "x": 50, "y": 380 },
+        "down": { "x": 450, "y": 50 }
+    },
+    "npcs": [
+        {
+            "name": "Cheff",
+            "x": -10,
+            "y": -25,
+            "scale": 2.2,
+            "sprite": "assets/images/sprites/overworld/npcs/chef.png",
+            "portrait": {
+                "path": "assets/images/sprites/dialogos/npcs/cheff_dialog.png",
+                "scale": 0.4,
+                "offset_x": 230,
+                "offset_y": -150
+            },
+            "dialogue": [
+                "Cheff: \nOh BIENVENIDOS!!! escuche sobre ustedes y la investigacion.",
+                "Cheff: \nEstoy I-N-S-P-I-R-A-D-O!!!",
+                "Lenard: \nOkey...? mira hermano necesitamos informacion \nsobre nuestro foco desaparecido.",
+                "Cheff: \nOH...oh.. mis sinceras disculpas, \npues smiley y yo estabamos en la furgoneta",
+                "Cheff: \nCuando escuchamos una clase de voz, \nronca como la de un gorila.",
+                "Cheff: \nCreiamos que fue atacado por un animal cuando yo fui a ver, \nYa no habia nada...",
+                "Cheff: \nMas que un rastro de ropa y sangre... \neso seria todo lo que se.",
+                "Pika: \nmh.. asi que tenemos a un monstruo entre nuestra busqueda huh?.",
+                "Lenard: \nEso seria suficiente sombrero. \nGracias.",
+                "Cheff: \nDe nada jovenes, y si son exitosos en su investigacion \nquizas considere que invite la casa!!.",
+                "Lenard(hablandole a Pika): \nDios Hermana...No podemos cargarla esta vez \ncon mi sueldo apenas puedo para comprar polenta.",
+                "Pika(hablando con Lenard): \nSinceramente, eres un idiota. \nPero tienes razon."
+            ]
+        },
+        {
+            "name": "Los Williams",
+            "x": 450,
+            "y": 245,
+            "scale": 2.5,
+            "sprite": "assets/images/sprites/overworld/npcs/williams.png",
+            "portrait": {
+                "path": "assets/images/sprites/dialogos/npcs/williams_dialog.png",
+                "scale": 0.4,
+                "offset_x": 230,
+                "offset_y": -150
+            },
+            "dialogue": [
+                "Los Williams: \nYa era hora que ustedes llegaran, \nnosotros la policia estuvimos investigando esto por semanas.",
+                "Los Williams: \nYo fui uno de los suertudos que pudo atestiguar algo \nEran horas tardias recuerdo.",
+                "Los Williams: \nDespues de los gritos yo corri para investigar, \npero mi hermano siames encontro algo.",
+                "Lenard: \nY eso fue?.",
+                "Los Williams: \n.......",
+                "Pika: \npero dejalo terminar idiota!!!.",
+                "Lenard: \nOkeeey okey, lo siento.",
+                "Los Williams: \n...Ugh *saca un cigarro y empieza a fumar*, \ncomo decia.",
+                "Los Williams: \nMi hermano menor, \nhabia notado un rastro que llevaba a los bosques.",
+                "Los Williams: \nNosotros queremos ir \npero debemos proteger a la gente del lugar \npor eso ustedes estan aqui, vallan al bosque y descubranlo.",
+                "Pika: \nGracias por la informacion oficial.",
+                "Los Williams: \nOficiales.",
+                "Pika: \nOh si.... Oficiales..",
+                "Los Williams: \nAhora esfumensen nosotros tambien tenemos un deber aqui."
+            ]
+        }
+    ],
+    "props": [
+        {
+            "x": 0,
+            "y": 0,
+            "image": "assets/images/mapas/mapas_props/zona3_prop_(ciudad).png"
+        }
+    ]
+}
